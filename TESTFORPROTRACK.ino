@@ -5,8 +5,8 @@
 Servo myservo;  // create servo object to control a servo
 
 // Your existing WiFi credentials and server details
-const char* ssid = "Hans";
-const char* pass = "HansRyan";
+const char* ssid = "Hans";  // WiFi network details can be changed anytime
+const char* pass = "HansRyan";  // WiFi network details can be changed anytime
 String payload;
 
 const char* serv = "https://protrack.pagekite.me";
